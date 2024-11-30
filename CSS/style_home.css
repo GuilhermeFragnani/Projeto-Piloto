@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 /* CSS Sony Store */
 /* Inicio estilo header */
 body,
@@ -11,7 +10,7 @@ ul {
 #menu a {
     color: black;
     text-decoration: none;
-    font-family: "Playfair Display", serif;
+    font-family: "Parkinsans", sans-serif;
     font-weight: 400;
     font-style: normal;
     transition: 0.3s;
@@ -20,7 +19,7 @@ ul {
     font-size: 24px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    border-bottom: 4px solid #0043ca;
+    border-bottom: 4px solid black;
     box-shadow: 1px 1px 2px #969696;
 }
 
@@ -135,7 +134,7 @@ ul {
         /* melhorando o hamburguer > Espessura da linha */
         width: 30px;
         /* Altera a largura do menu hamburguer */
-        color: #003f91;
+        color: yellow;
         /* Altera a cor do hamburguer */
     }
 
@@ -246,7 +245,7 @@ ul {
 }
 
 .destaque a:hover {
-    color: #ff0000;
+    color: yellowgreen;
     font-size: 24px;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
